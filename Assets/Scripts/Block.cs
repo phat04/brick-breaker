@@ -9,6 +9,7 @@ public class Block : MonoBehaviour
     [SerializeField] public GameObject destroyedBlockParticlesVFX;
     [SerializeField] public int maxHits;
     [SerializeField] public Sprite[] damageSprites;
+    [SerializeField] GameObject potion;
 
     // references to other objects
     private LevelController _levelController;
@@ -44,7 +45,7 @@ public class Block : MonoBehaviour
         }
         else
         {
-            DestroyItself();    
+            DestroyItself();
         }
     }
     
@@ -97,6 +98,12 @@ public class Block : MonoBehaviour
 
         // increments destroyed blocks of the level
         _levelController.DecrementBlocksCounter();
+
+        var rateAppearPotion = Random.Range(0, 10);
+        if (rateAppearPotion == 4)
+        {
+        }
+            Instantiate(potion, transform.position, Quaternion.identity);
     }
 
     /**

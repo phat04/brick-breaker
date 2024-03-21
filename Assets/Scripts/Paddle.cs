@@ -16,6 +16,8 @@ public class Paddle : MonoBehaviour
     // Unity units of the WIDTH of the screen (e.g. 16)
     [SerializeField]
     public float screenWidthUnits = 16;
+    
+    float effectTime = 10f; // time 
 
     // Start is called before the first frame update
     void Start()

@@ -8,6 +8,7 @@ TagManager:
   - Unbreakable
   - Transparent
   - MenuOptionWithChild
+  - Paddle
   layers:
   - Default
   - TransparentFX

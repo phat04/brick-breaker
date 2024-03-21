@@ -53,7 +53,7 @@ public class GameConfig
         
         if(this._gameMode == "easy")
         {
-            gameModeConfig.Add("playerLives", 3);
+            gameModeConfig.Add("playerLives", 4);
             gameModeConfig.Add("gameSpeed", 0.6f);
             gameModeConfig.Add("pointsPerBlock", 50);
         }
