@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -22,6 +23,13 @@ public class Ball : MonoBehaviour
     public Paddle Paddle { get; set; }
     public bool HasBallBeenShot { get; set; } = false;
 
+    [Header("BlueBottleBuff")]
+    public float blueBottleEffectTime = 10f;
+    public bool isBlueBottleEffectTime;
+    public int maxQuantityGearBuff = 5;
+    public LinkedList<float> currentQuantityBlueBottles = new LinkedList<float>();
+    public LinkedListNode<float> tempNode;
+
     private void Awake()
     {
         _paddle = FindObjectOfType<Paddle>();
@@ -44,6 +52,25 @@ public class Ball : MonoBehaviour
             
         FixBallOnTopOfPaddle(paddlePosition, _initialDistanceToTopOfPaddle);
         ShootBallOnClick(initialBallSpeed, hasMouseClick);
+
+        if (isBlueBottleEffectTime)// Decrease buffTime of BlueBottle effect
+        {
+            tempNode = currentQuantityBlueBottles.First;
+            while (tempNode != null)
+            {
+                tempNode.Value -= Time.deltaTime;
+                if (tempNode.Value <= 0)
+                {
+                    currentQuantityBlueBottles.RemoveLast();
+                    if (currentQuantityBlueBottles.Count <= 0)
+                    {
+                        isBlueBottleEffectTime = false;
+                        break;
+                    }
+                }
+                tempNode = tempNode.Next;
+            }
+        }
     }
     
     /**
@@ -99,8 +126,18 @@ public class Ball : MonoBehaviour
 
         if (Math.Abs(_rigidBody2D.velocity.y) < 4f) correctVelocityY = 4f * signVelocityY;
         if (Math.Abs(_rigidBody2D.velocity.x) < 4f) correctVelocityX = 4f * signVelocityX;
-        
+
+        if (isBlueBottleEffectTime)// if pickup Blue bottle
+        {
+            BlueBottleBuff(signVelocityY, signVelocityX);
+        }
+
         _rigidBody2D.velocity = new Vector2(correctVelocityX, correctVelocityY);
     }
 
+     void BlueBottleBuff(float velocityY, float velocityX)
+    {
+            velocityY -= velocityY * 5 / 100 * currentQuantityBlueBottles.Count;
+            velocityX -= velocityX * 5 / 100 * currentQuantityBlueBottles.Count;
+    }
 }

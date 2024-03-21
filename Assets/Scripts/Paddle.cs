@@ -17,8 +17,9 @@ public class Paddle : MonoBehaviour
     [SerializeField]
     public float screenWidthUnits = 16;
 
+    [Header("GearBuff")]
     float effectGearTime;
-    bool iseffectGearTime;
+    bool isGearEffectTime;
 
     // Start is called before the first frame update
     void Start()
@@ -33,14 +34,14 @@ public class Paddle : MonoBehaviour
         var relativePosX = ConvertPixelToRelativePosition(pixelPosition: Input.mousePosition.x, Screen.width);
         transform.position = GetUpdatedPaddlePosition(relativePosX);
 
-        if (iseffectGearTime)
+        if (isGearEffectTime) // // Decrease buffTime of Gear effect
         {
             effectGearTime -= Time.deltaTime;
             Debug.Log("iseffectGearTime");
             if (effectGearTime <= 0)
             {
                 transform.localScale = new Vector3(1, 1, 1);
-                iseffectGearTime = false;
+                isGearEffectTime = false;
             }
         }
     }
@@ -60,12 +61,12 @@ public class Paddle : MonoBehaviour
         return relativePosition;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)// Gear Buff event
     {
         if (other.CompareTag("Gear"))
         {
             effectGearTime = 10f;
-            iseffectGearTime = true;
+            isGearEffectTime = true;
         }
     }
 }

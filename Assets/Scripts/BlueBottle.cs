@@ -27,6 +27,16 @@ public class BlueBottle : MonoBehaviour
     {
         if (other.CompareTag("Paddle"))
         {
+            var ball = FindObjectOfType<Ball>();
+            if (ball != null)
+            {
+                ball.isBlueBottleEffectTime = true;
+
+                if (ball.currentQuantityBlueBottles.Count < ball.maxQuantityGearBuff)// Add bluebuff if  Acount BuleBuff < 5
+                {
+                    ball.currentQuantityBlueBottles.AddFirst(2f);
+                }
+            }
             DestroyItself();
         }
 

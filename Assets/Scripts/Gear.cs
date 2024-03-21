@@ -5,8 +5,6 @@ using UnityEngine;
 public class Gear : MonoBehaviour
 {
     [SerializeField] float limitBottom = -1f;// limit bottom which item can exist
-
-    float effectime = 10f;
         
     // Start is called before the first frame update
     void Start()
