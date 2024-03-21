@@ -2,23 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EmptyBottle : MonoBehaviour
+public class EmptyBottle : Potion
 {
-    [SerializeField] float limitBottom = -1f;// limit bottom which item can exist
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < limitBottom)
-        {
-            DestroyItself();
-        }
+        base.Update();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -35,11 +23,5 @@ public class EmptyBottle : MonoBehaviour
             }
             DestroyItself();
         }
-
-    }
-
-    void DestroyItself()
-    {
-        Destroy(gameObject);
     }
 }

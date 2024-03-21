@@ -3,23 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Heart : MonoBehaviour
+public class Heart : Potion
 {
-    [SerializeField] float limitBottom = -1f;// limit bottom which item can exist
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < limitBottom)
-        {
-            DestroyItself();
-        }
+        base.Update();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -30,10 +18,5 @@ public class Heart : MonoBehaviour
             GameSession.Instance.PlayerLives = Mathf.Clamp(GameSession.Instance.PlayerLives, -1, 5);
             DestroyItself();
         }
-    }
-
-    void DestroyItself()
-    {
-        Destroy(gameObject);
     }
 }
