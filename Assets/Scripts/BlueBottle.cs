@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class Heart : MonoBehaviour
+public class BlueBottle : MonoBehaviour
 {
     [SerializeField] float limitBottom = -1f;// limit bottom which item can exist
+
+    float effectime = 10f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -26,10 +27,9 @@ public class Heart : MonoBehaviour
     {
         if (other.CompareTag("Paddle"))
         {
-            GameSession.Instance.PlayerLives++;
-            GameSession.Instance.PlayerLives = Mathf.Clamp(GameSession.Instance.PlayerLives, -1, 5);
             DestroyItself();
         }
+
     }
 
     void DestroyItself()

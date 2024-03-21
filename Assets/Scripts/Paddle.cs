@@ -16,8 +16,9 @@ public class Paddle : MonoBehaviour
     // Unity units of the WIDTH of the screen (e.g. 16)
     [SerializeField]
     public float screenWidthUnits = 16;
-    
-    float effectTime = 10f; // time 
+
+    float effectGearTime;
+    bool iseffectGearTime;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,17 @@ public class Paddle : MonoBehaviour
     {
         var relativePosX = ConvertPixelToRelativePosition(pixelPosition: Input.mousePosition.x, Screen.width);
         transform.position = GetUpdatedPaddlePosition(relativePosX);
+
+        if (iseffectGearTime)
+        {
+            effectGearTime -= Time.deltaTime;
+            Debug.Log("iseffectGearTime");
+            if (effectGearTime <= 0)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+                iseffectGearTime = false;
+            }
+        }
     }
 
     public Vector2 GetUpdatedPaddlePosition(float relativePosX)
@@ -48,4 +60,12 @@ public class Paddle : MonoBehaviour
         return relativePosition;
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Gear"))
+        {
+            effectGearTime = 10f;
+            iseffectGearTime = true;
+        }
+    }
 }
