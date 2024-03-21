@@ -27,8 +27,8 @@ public class Ball : MonoBehaviour
     public float blueBottleEffectTime = 10f;
     public bool isBlueBottleEffectTime;
     public int maxQuantityGearBuff = 5;
-    public LinkedList<float> currentQuantityBlueBottles = new LinkedList<float>();
-    public LinkedListNode<float> tempNode;
+
+    public List<float> currentQuantityBlueBottles = new List<float>();
 
     private void Awake()
     {
@@ -55,20 +55,13 @@ public class Ball : MonoBehaviour
 
         if (isBlueBottleEffectTime)// Decrease buffTime of BlueBottle effect
         {
-            tempNode = currentQuantityBlueBottles.First;
-            while (tempNode != null)
+            if (currentQuantityBlueBottles[0] <= Time.time)
             {
-                tempNode.Value -= Time.deltaTime;
-                if (tempNode.Value <= 0)
+                currentQuantityBlueBottles.RemoveAt(0);
+                if (currentQuantityBlueBottles.Count <= 0)
                 {
-                    currentQuantityBlueBottles.RemoveLast();
-                    if (currentQuantityBlueBottles.Count <= 0)
-                    {
-                        isBlueBottleEffectTime = false;
-                        break;
-                    }
+                    isBlueBottleEffectTime = false;
                 }
-                tempNode = tempNode.Next;
             }
         }
     }
@@ -129,8 +122,8 @@ public class Ball : MonoBehaviour
 
         if (isBlueBottleEffectTime)// if pickup Blue bottle, active blue bottle effect
         {
-            correctVelocityY -= correctVelocityY * 5 / 100 * currentQuantityBlueBottles.Count;
-            correctVelocityX -= correctVelocityX * 5 / 100 * currentQuantityBlueBottles.Count;
+            correctVelocityY = correctVelocityY - correctVelocityY * 5 / 100 * currentQuantityBlueBottles.Count;
+            correctVelocityX = correctVelocityX - correctVelocityX * 5 / 100 * currentQuantityBlueBottles.Count;
         }
 
         _rigidBody2D.velocity = new Vector2(correctVelocityX, correctVelocityY);

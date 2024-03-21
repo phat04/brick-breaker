@@ -34,7 +34,7 @@ public class BlueBottle : MonoBehaviour
 
                 if (ball.currentQuantityBlueBottles.Count < ball.maxQuantityGearBuff)// Add bluebuff if  Acount BuleBuff < 5
                 {
-                    ball.currentQuantityBlueBottles.AddFirst(2f);
+                    ball.currentQuantityBlueBottles.Add(Time.time + 10f);
                 }
             }
             DestroyItself();

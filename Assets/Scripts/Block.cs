@@ -10,8 +10,7 @@ public class Block : MonoBehaviour
     [SerializeField] public GameObject destroyedBlockParticlesVFX;
     [SerializeField] public int maxHits;
     [SerializeField] public Sprite[] damageSprites;
-    //[SerializeField] List<GameObject> potions;
-    [SerializeField] GameObject potion;
+    [SerializeField] List<GameObject> potions;
 
     // references to other objects
     private LevelController _levelController;
@@ -104,10 +103,9 @@ public class Block : MonoBehaviour
         var rateAppearPotion = Random.Range(0, 10);
         if (rateAppearPotion == 4)
         {
+            var randomPosionIndex = Random.Range(0, potions.Count);
+            Instantiate(potions[randomPosionIndex], transform.position, Quaternion.identity);
         }
-            /*var randomPosionIndex = Random.Range(0, potions.Count);
-            Instantiate(potions[randomPosionIndex], transform.position, Quaternion.identity);*/
-            Instantiate(potion, transform.position, Quaternion.identity);
     }
 
     /**
