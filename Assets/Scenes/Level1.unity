@@ -185,10 +185,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -265,10 +305,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -351,10 +431,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -437,10 +557,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -523,10 +683,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -604,10 +804,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -690,10 +930,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -788,10 +1068,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -868,10 +1188,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -960,10 +1320,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -1058,10 +1458,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -1144,10 +1584,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -1305,10 +1785,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -1391,10 +1911,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -1471,10 +2031,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -1625,10 +2225,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -1711,10 +2351,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -1791,10 +2471,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -1871,10 +2591,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -1957,10 +2717,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -2043,10 +2843,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -2129,10 +2969,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -2215,10 +3095,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -2301,10 +3221,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -2399,10 +3359,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -2503,10 +3503,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -2589,10 +3629,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -2675,10 +3755,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -2755,10 +3875,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 96e1afa02fb564ab5a8a630b72349793,
         type: 3}
       propertyPath: m_Name
@@ -2841,10 +4001,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -2921,10 +4121,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -3001,10 +4241,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -3087,10 +4367,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -3173,10 +4493,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -3265,10 +4625,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 96e1afa02fb564ab5a8a630b72349793,
         type: 3}
       propertyPath: m_Name
@@ -3351,10 +4751,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -3691,10 +5131,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 96e1afa02fb564ab5a8a630b72349793,
         type: 3}
       propertyPath: m_Name
@@ -3777,10 +5257,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -3857,10 +5377,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 96e1afa02fb564ab5a8a630b72349793,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 96e1afa02fb564ab5a8a630b72349793,
         type: 3}
       propertyPath: m_Name
@@ -3943,10 +5503,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -4029,10 +5629,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -4109,10 +5749,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 95b29c3d187384d1c94f2fbc870e2465,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 95b29c3d187384d1c94f2fbc870e2465,
         type: 3}
       propertyPath: m_Name
@@ -4189,10 +5869,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: b659bd4ff687548a09a031c2e989b540,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: b659bd4ff687548a09a031c2e989b540,
         type: 3}
       propertyPath: m_Name
@@ -4275,10 +5995,50 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
+      propertyPath: potions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
       propertyPath: potion
+      value: 
+      objectReference: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[0]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[1]
       value: 
       objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
         type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[2]
+      value: 
+      objectReference: {fileID: 3282233807628086597, guid: 6e0477902c7d3ec44b32c1928e159462,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[3]
+      value: 
+      objectReference: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[4]
+      value: 
+      objectReference: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+    - target: {fileID: 8946811745996912622, guid: 708d02db2e99e4c1bb378cc38d220c41,
+        type: 3}
+      propertyPath: potions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8946811745996912623, guid: 708d02db2e99e4c1bb378cc38d220c41,
         type: 3}
       propertyPath: m_Name
@@ -4514,6 +6274,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gear
       objectReference: {fileID: 0}
+    - target: {fileID: 454219463312643319, guid: 143a3073e78d77046be763f913435dd9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 143a3073e78d77046be763f913435dd9, type: 3}
 --- !u!1001 &985522586091570499
@@ -4587,6 +6352,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 985522586980336579, guid: 1dc4cf8409858436f9b5660273cb0568,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dc4cf8409858436f9b5660273cb0568, type: 3}
@@ -4802,6 +6572,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 785c7ea4e9aee464f97782cb184453aa, type: 3}
+--- !u!1001 &5627871977186544032
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_Name
+      value: Empty bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716877, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.341356
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.318237
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.723908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5627871976262716879, guid: dfff42a808c05f64da06fb3c81046914,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dfff42a808c05f64da06fb3c81046914, type: 3}
 --- !u!1001 &7209574147145357363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4891,6 +6735,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 757b4fe070d834be5a786b8cfa61d8a9, type: 3}
+--- !u!1001 &7254039380740060588
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_Name
+      value: Blue bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507331, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.341356
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.318237
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.723908
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254039380620507357, guid: 72788720b2accc74ba5a97444030e1dc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 72788720b2accc74ba5a97444030e1dc, type: 3}
 --- !u!1001 &7348340109302863387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5047,5 +6965,15 @@ PrefabInstance:
       propertyPath: bumpAudioClips.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: 784e856801b4f4244987ce29199f8236, type: 3}
+    - target: {fileID: 8052374309985418527, guid: 47368a3e0f7a7473cba109fd03b37135,
+        type: 3}
+      propertyPath: initialBallSpeed.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8052374309985418527, guid: 47368a3e0f7a7473cba109fd03b37135,
+        type: 3}
+      propertyPath: initialBallSpeed.y
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47368a3e0f7a7473cba109fd03b37135, type: 3}

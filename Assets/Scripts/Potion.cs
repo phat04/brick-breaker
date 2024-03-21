@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//DOCUMENT
+
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -57,3 +59,4 @@ public class Potion : MonoBehaviour
         Destroy(gameObject);
     }
 }
+*/

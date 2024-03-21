@@ -9,6 +9,7 @@ TagManager:
   - Transparent
   - MenuOptionWithChild
   - Paddle
+  - Gear
   layers:
   - Default
   - TransparentFX

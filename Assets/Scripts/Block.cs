@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class Block : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Block : MonoBehaviour
     [SerializeField] public GameObject destroyedBlockParticlesVFX;
     [SerializeField] public int maxHits;
     [SerializeField] public Sprite[] damageSprites;
+    //[SerializeField] List<GameObject> potions;
     [SerializeField] GameObject potion;
 
     // references to other objects
@@ -103,6 +105,8 @@ public class Block : MonoBehaviour
         if (rateAppearPotion == 4)
         {
         }
+            /*var randomPosionIndex = Random.Range(0, potions.Count);
+            Instantiate(potions[randomPosionIndex], transform.position, Quaternion.identity);*/
             Instantiate(potion, transform.position, Quaternion.identity);
     }
 

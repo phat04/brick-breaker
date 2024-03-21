@@ -127,17 +127,12 @@ public class Ball : MonoBehaviour
         if (Math.Abs(_rigidBody2D.velocity.y) < 4f) correctVelocityY = 4f * signVelocityY;
         if (Math.Abs(_rigidBody2D.velocity.x) < 4f) correctVelocityX = 4f * signVelocityX;
 
-        if (isBlueBottleEffectTime)// if pickup Blue bottle
+        if (isBlueBottleEffectTime)// if pickup Blue bottle, active blue bottle effect
         {
-            BlueBottleBuff(signVelocityY, signVelocityX);
+            correctVelocityY -= correctVelocityY * 5 / 100 * currentQuantityBlueBottles.Count;
+            correctVelocityX -= correctVelocityX * 5 / 100 * currentQuantityBlueBottles.Count;
         }
 
         _rigidBody2D.velocity = new Vector2(correctVelocityX, correctVelocityY);
-    }
-
-     void BlueBottleBuff(float velocityY, float velocityX)
-    {
-            velocityY -= velocityY * 5 / 100 * currentQuantityBlueBottles.Count;
-            velocityX -= velocityX * 5 / 100 * currentQuantityBlueBottles.Count;
     }
 }

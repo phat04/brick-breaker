@@ -17,9 +17,11 @@ public class Paddle : MonoBehaviour
     [SerializeField]
     public float screenWidthUnits = 16;
 
-    [Header("GearBuff")]
+    // GearBuff information
     float effectGearTime;
     bool isGearEffectTime;
+
+    public float EffectGearTime {  get { return effectGearTime; } set {  effectGearTime = value; } }
 
     // Start is called before the first frame update
     void Start()
