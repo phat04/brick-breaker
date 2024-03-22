@@ -27,12 +27,13 @@ public class LevelSpawnController : MonoBehaviour
         {
             if (currentRown % 2 == 0)
             {
-                stages[i].transform.GetChild(0).GetComponent<Text>().text = (i + 1).ToString();
+                stages[i].transform.GetChild(0).GetComponent<Text>().text = (i + 1).ToString();// Pass level number for Stage Number Txt
             }
             else
             {
-                stages[i].transform.GetChild(0).GetComponent<Text>().text = (i + 4 - currentStageInRown * 2).ToString();
+                stages[i].transform.GetChild(0).GetComponent<Text>().text = (i + 4 - currentStageInRown * 2).ToString();// Pass level number for Stage Number Txt
             }
+
             currentStageInRown++;
             if (currentStageInRown > 3)
             {
