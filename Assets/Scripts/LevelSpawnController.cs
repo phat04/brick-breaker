@@ -24,19 +24,6 @@ public class LevelSpawnController : MonoBehaviour
             }
         }
 
-        if (PlayerPrefs.HasKey("CurrentCompleteStage"))
-        {
-            for (int i = 0; i <= PlayerPrefs.GetInt("CurrentCompleteStage"); i++)
-            {
-                WinStateStage(stages[i]);
-            }
-
-            UnLocksStateStage(stages[PlayerPrefs.GetInt("CurrentCompleteStage") + 1]);
-        }
-        else
-        {
-            UnLocksStateStage(stages[1]);
-        }
 
         var currentStageInRown = 1;
         var currentRown = 0;
@@ -58,6 +45,23 @@ public class LevelSpawnController : MonoBehaviour
                 currentRown++;
                 currentStageInRown = 0;
             }
+        }
+
+        if (PlayerPrefs.HasKey("CurrentCompleteStage"))
+        {
+            for (int i = 1; i < stages.Count; i++)
+            {
+                if (int.Parse(stages[i].transform.GetChild(0).GetComponent<Text>().text) <= PlayerPrefs.GetInt("CurrentCompleteStage"))
+                {
+                    WinStateStage(stages[i]);
+                }
+            }
+
+            UnLocksStateStage(stages[PlayerPrefs.GetInt("CurrentCompleteStage") + 1]);
+        }
+        else
+        {
+            UnLocksStateStage(stages[1]);
         }
     }
 
