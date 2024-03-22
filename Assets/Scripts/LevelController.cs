@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class LevelController : MonoBehaviour
 
     // state
     private SceneLoader _sceneLoader;
+
+    private SaveLoadData _saveLoadData;
     
     private void Start()
     {
@@ -33,14 +36,17 @@ public class LevelController : MonoBehaviour
             var gameSession = GameSession.Instance;
             
             // check for game over
-            if (gameSession.GameLevel >= NUMBER_OF_GAME_LEVELS)
+            /*if (gameSession.GameLevel >= NUMBER_OF_GAME_LEVELS)
             {
                 _sceneLoader.LoadSceneByName(GAME_OVER_SCENE_NAME);
-            }
+            }*/
 
             // increases game level
             gameSession.GameLevel++;
-            _sceneLoader.LoadNextScene();
+
+            PlayerPrefs.SetInt("CurrentCompleteStage", SceneManager.GetActiveScene().buildIndex);// save current stage is complete
+
+            _sceneLoader.LoadLevelMapScene();
         }
     }
     

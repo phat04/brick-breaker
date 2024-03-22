@@ -103,9 +103,9 @@ public class Block : MonoBehaviour
         var rateAppearPotion = Random.Range(0, 10);
         if (rateAppearPotion == 4)
         {
+        }
             var randomPosionIndex = Random.Range(0, potions.Count);
             Instantiate(potions[randomPosionIndex], transform.position, Quaternion.identity);
-        }
     }
 
     /**

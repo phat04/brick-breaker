@@ -46,8 +46,8 @@ public class MenuSelector : VerticalMenuSelector
         else if (currentMenu.name == MENU_OPTION_INSTRUCTIONS) 
             this.sceneLoader.LoadSceneByName("InstructionsMenu");
         
-        else if (currentMenu.name == MENU_OPTION_OPTIONS) 
-            this.sceneLoader.LoadSceneByName("OptionsMenu");
+        /*else if (currentMenu.name == MENU_OPTION_OPTIONS) 
+            this.sceneLoader.LoadSceneByName("OptionsMenu");*/
 
         else 
             this.sceneLoader.Quit();

@@ -18,7 +18,8 @@ public class LoseCollider : MonoBehaviour
             // checks for game over
             if (gameSession.PlayerLives <= 0)
             {
-                SceneManager.LoadScene(GAME_OVER_SCENE_NAME);
+                //SceneManager.LoadScene(GAME_OVER_SCENE_NAME);
+                SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings - 1);
                 return;
             }
 

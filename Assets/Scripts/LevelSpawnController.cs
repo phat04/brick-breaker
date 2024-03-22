@@ -8,7 +8,7 @@ public class LevelSpawnController : MonoBehaviour
     [SerializeField] Image stageImage;
     [SerializeField] int maxNumberSpawn = 40;
 
-    List<Image> stages = new List<Image>();
+    public List<Image> stages = new List<Image>();
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,24 @@ public class LevelSpawnController : MonoBehaviour
         {
             intance = Instantiate(stageImage, transform);
             stages.Add(intance);
+            if (i != 0)
+            {
+                DefaultStateStage(intance);
+            }
+        }
+
+        if (PlayerPrefs.HasKey("CurrentCompleteStage"))
+        {
+            for (int i = 0; i <= PlayerPrefs.GetInt("CurrentCompleteStage"); i++)
+            {
+                WinStateStage(stages[i]);
+            }
+
+            UnLocksStateStage(stages[PlayerPrefs.GetInt("CurrentCompleteStage") + 1]);
+        }
+        else
+        {
+            UnLocksStateStage(stages[1]);
         }
 
         var currentStageInRown = 1;
@@ -47,5 +65,29 @@ public class LevelSpawnController : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void WinStateStage(Image stage)
+    {
+        stage.transform.GetChild(1).GetComponent<Image>().color = new Color(255, 255, 255, 255);
+        stage.transform.GetChild(2).GetComponent<Image>().color = new Color(255, 255, 255, 255);
+        stage.transform.GetChild(3).GetComponent<Image>().color = new Color(255, 255, 255, 255);
+        stage.transform.GetChild(4).GetComponent<Image>().color = new Color(255, 255, 255, 0);
+    }
+
+    public void DefaultStateStage(Image stage)
+    {
+        stage.transform.GetChild(1).GetComponent<Image>().color = new Color(255, 255, 255, 0);
+        stage.transform.GetChild(2).GetComponent<Image>().color = new Color(255, 255, 255, 0);
+        stage.transform.GetChild(3).GetComponent<Image>().color = new Color(255, 255, 255, 0);
+        stage.transform.GetChild(4).GetComponent<Image>().color = new Color(255, 255, 255, 255);
+    }
+
+    public void UnLocksStateStage(Image stage)
+    {
+        stage.transform.GetChild(1).GetComponent<Image>().color = new Color(255, 255, 255, 0);
+        stage.transform.GetChild(2).GetComponent<Image>().color = new Color(255, 255, 255, 0);
+        stage.transform.GetChild(3).GetComponent<Image>().color = new Color(255, 255, 255, 0);
+        stage.transform.GetChild(4).GetComponent<Image>().color = new Color(255, 255, 255, 0);
     }
 }

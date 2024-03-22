@@ -38,4 +38,9 @@ public class SceneLoader : MonoBehaviour
    {
       Cursor.visible = false;
    }
+
+    public void LoadLevelMapScene()
+    {
+        SceneManager.LoadScene(SceneManager.sceneCountInBuildSettings - 1);
+    }
 }

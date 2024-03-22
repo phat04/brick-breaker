@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class Ball : MonoBehaviour
@@ -40,6 +41,7 @@ public class Ball : MonoBehaviour
         var paddlePosition = _paddle.transform.position;
 
         _initialDistanceToTopOfPaddle = ballPosition - paddlePosition;  // assumes ball always starts on TOP of the paddle
+        Debug.Log(SceneManager.sceneCountInBuildSettings);
     }
     
     private void Update()
@@ -61,6 +63,7 @@ public class Ball : MonoBehaviour
                 if (currentQuantityBlueBottles.Count <= 0)
                 {
                     isBlueBottleEffectTime = false;
+                    _rigidBody2D.velocity = initialBallSpeed;
                 }
             }
         }
