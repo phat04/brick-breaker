@@ -103,7 +103,7 @@ public class MenuOptionsSelector : VerticalMenuSelector
      */
     private string GetSelectedGameMode()
     {
-        return this._gameModes[this._selectedGameModeIndex];
+        return "normal";
     }
 
     /**
