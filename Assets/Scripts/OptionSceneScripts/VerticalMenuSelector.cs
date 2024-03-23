@@ -18,16 +18,16 @@ public class VerticalMenuSelector : MonoBehaviour
     /**
      * Returns the currently selected menu option as a Unity Game Object.
      */
-    protected GameObject GetCurrentMenu()
+    /*protected GameObject GetCurrentMenu()
     {
         return this.verticalMenuOptions[this._selectedMenuOptionIndex];
-    }
+    }*/
     
     /**
      * Returns a new Vector2 position for the menu selector position. The position is calculated
      * according to the currently selected menu option (private variable: this._selectedMenuOptionIndex).
      */
-    protected Vector2 GetMenuSelectorPosition()
+    /*protected Vector2 GetMenuSelectorPosition()
     {
         GameObject menuOption = this.verticalMenuOptions[this._selectedMenuOptionIndex];
         
@@ -35,13 +35,13 @@ public class VerticalMenuSelector : MonoBehaviour
         Vector2 selectorPosition = new Vector2(transform.position.x, selectorY);
 
         return selectorPosition;
-    }
+    }*/
     
     /**
      * Handles up and down keyboard arrow presses by moving the menu selector position up and down
      * according to the menu available options (this.verticalMenuOptions).
      */
-    protected void HandleUpDownArrowPresses()
+    /*protected void HandleUpDownArrowPresses()
     {
         var maxMenuOptionIndex = this.verticalMenuOptions.Length - 1;
         
@@ -58,5 +58,5 @@ public class VerticalMenuSelector : MonoBehaviour
         
         // updates the menu selector position on the screen
         this.transform.position = GetMenuSelectorPosition();
-    }
+    }*/
 }

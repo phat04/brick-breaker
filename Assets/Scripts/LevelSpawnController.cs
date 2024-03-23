@@ -13,6 +13,7 @@ public class LevelSpawnController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.visible = true;
         Image intance;
         for (int i = 0; i < maxNumberSpawn; i++)
         {
@@ -55,9 +56,11 @@ public class LevelSpawnController : MonoBehaviour
                 {
                     WinStateStage(stages[i]);
                 }
+                else if (int.Parse(stages[i].transform.GetChild(0).GetComponent<Text>().text) == PlayerPrefs.GetInt("CurrentCompleteStage") + 1)
+                {
+                    UnLocksStateStage(stages[i]);
+                }
             }
-
-            UnLocksStateStage(stages[PlayerPrefs.GetInt("CurrentCompleteStage") + 1]);
         }
         else
         {

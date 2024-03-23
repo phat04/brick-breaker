@@ -15,7 +15,7 @@ public class Heart : Potion
         if (other.CompareTag("Paddle"))
         {
             GameSession.Instance.PlayerLives++;
-            GameSession.Instance.PlayerLives = Mathf.Clamp(GameSession.Instance.PlayerLives, -1, 5);
+            GameSession.Instance.PlayerLives = Mathf.Clamp(GameSession.Instance.PlayerLives, 0, 5);
             DestroyItself();
         }
     }

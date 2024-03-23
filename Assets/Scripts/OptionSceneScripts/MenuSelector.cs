@@ -16,27 +16,27 @@ public class MenuSelector : VerticalMenuSelector
     /**
      * Before first frame update. 
      */
-    void Start()
+    /*void Start()
     {
         transform.position = GetMenuSelectorPosition();
-    }
+    }*/
 
     /**
      * Update per frame.
      */
-    void Update()
+    /*void Update()
     {
         // invokes base class up/down arrows handling
         this.HandleUpDownArrowPresses();
         
         // enter case handling
         if (Input.GetKeyDown(KeyCode.Return)) HandleReturn();
-    }
+    }*/
     
     /**
      * Handles ENTER pressing that allows the user to choose an option.
      */
-    private void HandleReturn()
+    /*private void HandleReturn()
     {
         var currentMenu = this.GetCurrentMenu();
 
@@ -46,10 +46,10 @@ public class MenuSelector : VerticalMenuSelector
         else if (currentMenu.name == MENU_OPTION_INSTRUCTIONS) 
             this.sceneLoader.LoadSceneByName("InstructionsMenu");
         
-        /*else if (currentMenu.name == MENU_OPTION_OPTIONS) 
-            this.sceneLoader.LoadSceneByName("OptionsMenu");*/
+        *//*else if (currentMenu.name == MENU_OPTION_OPTIONS) 
+            this.sceneLoader.LoadSceneByName("OptionsMenu");*//*
 
         else 
             this.sceneLoader.Quit();
-    }
+    }*/
 }

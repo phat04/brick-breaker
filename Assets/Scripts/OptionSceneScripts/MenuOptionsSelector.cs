@@ -19,7 +19,7 @@ public class MenuOptionsSelector : VerticalMenuSelector
     /**
      * Before first frame update.
      */
-    void Start()
+    /*void Start()
     {
         this._gameConfig = GameConfig.Instance;  // singleton
         var configGameMode = this._gameConfig.GameMode;
@@ -30,12 +30,12 @@ public class MenuOptionsSelector : VerticalMenuSelector
         // option based on game config
         this._selectedGameModeIndex = GetGameModeIndex(configGameMode);
         gameModeText.text = this._gameModes[this._selectedGameModeIndex];
-    }
+    }*/
 
     /**
      * Update per frame.
      */
-    void Update()
+    /*void Update()
     {
         // up and down selection is always allowed
         this.HandleUpDownArrowPresses();
@@ -50,26 +50,26 @@ public class MenuOptionsSelector : VerticalMenuSelector
         {
             this.HandleReturn();            
         }
-    }
+    }*/
     
     /**
      * Handles ENTER from users. The only ENTER option supported is for the 'back' option which leads
      * the user back to the start menu scene.
      */
-    private void HandleReturn()
+    /*private void HandleReturn()
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
             this._gameConfig.GameMode = GetSelectedGameMode();
             this.sceneLoader.LoadStartScene();
         }
-    }
+    }*/
 
     /**
      * Handles left, right arrows presses from users. Only applies if the current selected menu option
      * is the 'game mode' which allows the user to change how hard the game will be. 
      */
-    private void HandleLeftRightArrowPresses()
+    /*private void HandleLeftRightArrowPresses()
     {
 
         if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -85,32 +85,32 @@ public class MenuOptionsSelector : VerticalMenuSelector
             UpdateGameModeText();
         }
         
-    }
+    }*/
 
     /**
      * Updates game mode text on the UI.
      */
-    private void UpdateGameModeText()
+    /*private void UpdateGameModeText()
     {
         var maxOptionIndex = this._gameModes.Length - 1;
         
         this._selectedGameModeIndex = Mathf.Clamp(_selectedGameModeIndex, 0, maxOptionIndex);
         gameModeText.text = GetSelectedGameMode();
-    }
+    }*/
 
     /**
      * Returns the selected game mode.
      */
-    private string GetSelectedGameMode()
+    /*private string GetSelectedGameMode()
     {
         return "normal";
-    }
+    }*/
 
     /**
      * Gets _selectedGameModeIndex from the current game config.
      */
-    private int GetGameModeIndex(string gameMode)
+    /*private int GetGameModeIndex(string gameMode)
     {
         return Array.FindIndex(this._gameModes, str => str == gameMode);
-    }
+    }*/
 }
