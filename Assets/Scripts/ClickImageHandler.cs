@@ -15,14 +15,14 @@ public class ClickImageHandler : MonoBehaviour, IPointerClickHandler
             SceneManager.LoadScene(0);
             return;
         }
-        int indexScene = int.Parse(transform.GetChild(0).GetComponent<Text>().text) - 1;
+        int numberLevel = int.Parse(transform.GetChild(0).GetComponent<Text>().text);
         Debug.Log(PlayerPrefs.GetInt("CurrentCompleteStage") + 1);
-        if (indexScene > PlayerPrefs.GetInt("CurrentCompleteStage") + 1)
+        if (numberLevel > PlayerPrefs.GetInt("CurrentCompleteStage") + 1)
         {
             Debug.Log("Can not Play, Please complete before stage");
             return;
         }
-        SceneManager.LoadScene(indexScene);
+        SceneManager.LoadScene(numberLevel - 1);
     }
 
     // Start is called before the first frame update

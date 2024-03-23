@@ -50,8 +50,8 @@ public class GameConfig
     public Dictionary<string, object> GetGameModeConfig()
     {
         var gameModeConfig = new Dictionary<string, object>();
-        
-        if(this._gameMode == "easy")
+
+        /*if(this._gameMode == "easy")
         {
             gameModeConfig.Add("playerLives", 4);
             gameModeConfig.Add("gameSpeed", 0.6f);
@@ -75,7 +75,11 @@ public class GameConfig
             gameModeConfig.Add("gameSpeed", 1.4f);
             gameModeConfig.Add("pointsPerBlock", 500);
             
-        }
+        }*/
+
+        gameModeConfig.Add("playerLives", 3);
+        gameModeConfig.Add("gameSpeed", 0.8f);
+        gameModeConfig.Add("pointsPerBlock", 100);
 
         // regardless of the game play mode 
         gameModeConfig.Add("playerScore", 0);

@@ -14,8 +14,6 @@ public class LevelController : MonoBehaviour
 
     // state
     private SceneLoader _sceneLoader;
-
-    private SaveLoadData _saveLoadData;
     
     private void Start()
     {
