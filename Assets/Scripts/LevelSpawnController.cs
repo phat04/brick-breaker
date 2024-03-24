@@ -7,12 +7,15 @@ public class LevelSpawnController : MonoBehaviour
 {
     [SerializeField] Image stageImage;
     [SerializeField] int maxNumberSpawn = 40;
+    [SerializeField] RectTransform temp;
 
     public List<Image> stages = new List<Image>();
 
     // Start is called before the first frame update
     void Start()
     {
+        //Debug.Log(transform.position + " != " + transform.GetComponent<RectTransform>().y);
+        Debug.Log(temp.position);
         Cursor.visible = true;
         Image intance;
         for (int i = 0; i < maxNumberSpawn; i++)
