@@ -13,7 +13,7 @@ public class MenuOptionsSelector : VerticalMenuSelector
 
     // private GameConfig gameConfig;
     private GameConfig _gameConfig;
-    private readonly string[] _gameModes = GameConfig.AllowedGameModes;
+    //private readonly string[] _gameModes = GameConfig.AllowedGameModes;
     private int _selectedGameModeIndex = 0;
     
     /**

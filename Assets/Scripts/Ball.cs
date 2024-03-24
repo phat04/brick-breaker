@@ -24,6 +24,8 @@ public class Ball : MonoBehaviour
     public Paddle Paddle { get; set; }
     public bool HasBallBeenShot { get; set; } = false;
 
+    [SerializeField] bool isTemp ;
+
     [Header("BlueBottleBuff")]
     public float blueBottleEffectTime = 10f;
     public bool isBlueBottleEffectTime;
@@ -46,6 +48,7 @@ public class Ball : MonoBehaviour
     
     private void Update()
     {
+        isTemp = HasBallBeenShot;
         // if ball has been shot, no locking or shooting it again!
         if (HasBallBeenShot) return;
         

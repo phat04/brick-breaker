@@ -32,7 +32,7 @@ public class GameSession : MonoBehaviour
         
         // first instance should be kept and do NOT destroy it on load
         _instance = this;
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
     }
     
     /**
@@ -43,6 +43,7 @@ public class GameSession : MonoBehaviour
         playerScoreText.text = this.PlayerScore.ToString();
         gameLevelText.text = this.GameLevel.ToString();
         playerLivesText.text = this.PlayerLives.ToString();
+        Debug.Log(this.PlayerLives);
     }
 
     /**

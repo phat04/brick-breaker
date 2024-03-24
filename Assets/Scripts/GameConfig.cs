@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameConfig
 {
     // state
-    public static readonly string[] AllowedGameModes = {"easy", "normal", "hard", "inhuman"};
-    public string GameMode
+    //public static readonly string[] AllowedGameModes = {"easy", "normal", "hard", "inhuman"};
+    /*public string GameMode
     {
         get => _gameMode;
         set
@@ -17,7 +19,7 @@ public class GameConfig
             _gameMode = value;
         }
     }
-    private string _gameMode = "normal";
+    private string _gameMode = "normal";*/
     
     // singleton
     private static readonly object padlock = new object();
@@ -85,7 +87,7 @@ public class GameConfig
         gameModeConfig.Add("playerScore", 0);
         
         // initial level
-        gameModeConfig.Add("gameLevel", 1);
+        gameModeConfig.Add("gameLevel", SceneManager.GetActiveScene().buildIndex + 1);
         
         return gameModeConfig;
     }
