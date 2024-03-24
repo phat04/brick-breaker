@@ -87,7 +87,7 @@ public class GameConfig
         gameModeConfig.Add("playerScore", 0);
         
         // initial level
-        gameModeConfig.Add("gameLevel", SceneManager.GetActiveScene().buildIndex + 1);
+        gameModeConfig.Add("gameLevel", SceneManager.GetActiveScene().buildIndex + 1);//setup gameLevel Text
         
         return gameModeConfig;
     }
