@@ -10,12 +10,12 @@ public class ClickImageHandler : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log("Click image");
-        if (transform.GetChild(0).GetComponent<Text>().text == "Tutorial")
+        if (transform.GetChild(0 + 3).GetComponent<Text>().text == "Tutorial")
         {
             SceneManager.LoadScene(0);
             return;
         }
-        int numberLevel = int.Parse(transform.GetChild(0).GetComponent<Text>().text);
+        int numberLevel = int.Parse(transform.GetChild(0 + 3).GetComponent<Text>().text);
         Debug.Log(PlayerPrefs.GetInt("CurrentCompleteStage") + 1);
         if (numberLevel > PlayerPrefs.GetInt("CurrentCompleteStage") + 1)
         {

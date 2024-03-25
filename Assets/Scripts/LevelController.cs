@@ -42,7 +42,11 @@ public class LevelController : MonoBehaviour
             // increases game level
             gameSession.GameLevel++;
 
-            PlayerPrefs.SetInt("CurrentCompleteStage", SceneManager.GetActiveScene().buildIndex + 1);// save current stage is complete
+            if (SceneManager.GetActiveScene().buildIndex + 1 > PlayerPrefs.GetInt("CurrentCompleteStage"))
+            {
+                PlayerPrefs.SetInt("CurrentCompleteStage", SceneManager.GetActiveScene()
+                    .buildIndex + 1);// save current stage is completed
+            }
 
             _sceneLoader.LoadLevelMapScene();
         }
