@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class LevelSpawnController : MonoBehaviour
 {
-    [SerializeField] Image stageImage;
+    [SerializeField] Image stageImg;
     [SerializeField] int maxNumberSpawn = 40;
-    [SerializeField] RectTransform temp;
     [SerializeField] Image levelPanel;
+    [SerializeField] Text starNumbetTxt;
 
     public List<Image> stages = new List<Image>();
 
@@ -17,10 +17,12 @@ public class LevelSpawnController : MonoBehaviour
     void Start()
     {
         Cursor.visible = true;
+        starNumbetTxt.text = (PlayerPrefs.GetInt("CurrentCompleteStage") * 3).ToString();// Caculate the total number of stars
+
         Image intance;
         for (int i = 0; i < maxNumberSpawn; i++)
         {
-            intance = Instantiate(stageImage, transform);
+            intance = Instantiate(stageImg, transform);
             stages.Add(intance);
             if (i != 0)
             {
@@ -56,7 +58,8 @@ public class LevelSpawnController : MonoBehaviour
                     stages[i].transform.GetChild(0).gameObject.SetActive(false);
                 }
             }
-            else if (int.Parse(stages[i].transform.GetChild(0 + 3).GetComponent<Text>().text) % 4 == 1 && currentRown % 2 != 0)
+            else if (int.Parse(stages[i].transform.GetChild(0 + 3).GetComponent<Text>().text) % 4 == 1 
+                && currentRown % 2 != 0)
             {
                 stages[i].transform.GetChild(0).gameObject.SetActive(false);
             }
