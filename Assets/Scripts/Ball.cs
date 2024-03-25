@@ -8,23 +8,22 @@ public class Ball : MonoBehaviour
 {
     // constants
     private const int MOUSE_PRIMARY_BUTTON = 0;
-    
+
     // fields
-    [SerializeField] private Vector2 initialBallSpeed = new Vector2(2f, 10f);
+    [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float bounceRandomnessFactor = 0.5f;
     [SerializeField] private AudioClip[] bumpAudioClips;
     
+    [SerializeField] private Vector2 initialBallVelocity;
     private Paddle _paddle;
     private Vector2 _initialDistanceToTopOfPaddle;
     private Rigidbody2D _rigidBody2D;
     private AudioSource _audioSource;
 
     // properties
-    public Vector2 InitialBallSpeed { get; set; }
+    //public Vector2 InitialBallSpeed { get; set; }
     public Paddle Paddle { get; set; }
     public bool HasBallBeenShot { get; set; } = false;
-
-    [SerializeField] bool isTemp ;
 
     [Header("BlueBottleBuff")]
     public float blueBottleEffectTime = 10f;
@@ -44,11 +43,11 @@ public class Ball : MonoBehaviour
 
         _initialDistanceToTopOfPaddle = ballPosition - paddlePosition;  // assumes ball always starts on TOP of the paddle
         Debug.Log(SceneManager.sceneCountInBuildSettings);
+        initialBallVelocity = new Vector2(Random.Range(-1, 1), Random.Range(0.1f, 1)).normalized * moveSpeed;
     }
     
     private void Update()
     {
-        isTemp = HasBallBeenShot;
         // if ball has been shot, no locking or shooting it again!
         if (HasBallBeenShot) return;
         
@@ -56,7 +55,7 @@ public class Ball : MonoBehaviour
         var paddlePosition = _paddle.transform.position;
             
         FixBallOnTopOfPaddle(paddlePosition, _initialDistanceToTopOfPaddle);
-        ShootBallOnClick(initialBallSpeed, hasMouseClick);
+        ShootBallOnClick(initialBallVelocity, hasMouseClick);
 
         if (isBlueBottleEffectTime)// Decrease buffTime of BlueBottle effect
         {
@@ -66,7 +65,7 @@ public class Ball : MonoBehaviour
                 if (currentQuantityBlueBottles.Count <= 0)
                 {
                     isBlueBottleEffectTime = false;
-                    _rigidBody2D.velocity = initialBallSpeed;
+                    _rigidBody2D.velocity = initialBallVelocity;
                 }
             }
         }
