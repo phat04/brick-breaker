@@ -43,7 +43,8 @@ public class Ball : MonoBehaviour
 
         _initialDistanceToTopOfPaddle = ballPosition - paddlePosition;  // assumes ball always starts on TOP of the paddle
         Debug.Log(SceneManager.sceneCountInBuildSettings);
-        initialBallVelocity = new Vector2(Random.Range(-1, 1), Random.Range(0.1f, 1)).normalized * moveSpeed;
+
+        initialBallVelocity = new Vector2(Random.Range(Random.Range(-1, -0.3f) , Random.Range(0.3f, 1)), Random.Range(0.3f, 1)).normalized * moveSpeed;
     }
     
     private void Update()

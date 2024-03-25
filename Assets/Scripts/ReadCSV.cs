@@ -7,6 +7,7 @@ public class ReadCSV : MonoBehaviour
 {
     [SerializeField] List<GameObject> typeOfRocks;
     [SerializeField] Transform blocks;
+    [SerializeField] string fileName;
 
     public List<int> list = new List<int>();
     public static ReadCSV Instance;
@@ -24,6 +25,7 @@ public class ReadCSV : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        var instance = new GameObject();
         for (int i = list.Count - 1; i >= 2; i--)
         {
             switch (list[i])
@@ -33,19 +35,22 @@ public class ReadCSV : MonoBehaviour
                     break;
                 case 1:
                     clonedRock = typeOfRocks[1];
-                    Instantiate(typeOfRocks[1], new Vector2(currentIndex + 0.5f, currentRow + 0), Quaternion.identity, blocks);
                     break;
                 case 2:
                     clonedRock = typeOfRocks[2];
                     break;
-                case 3:
+                case -1:
                     clonedRock = typeOfRocks[3];
+                    break;
+                case 4:
+                    clonedRock = typeOfRocks[4];
                     break;
                 default:
                     clonedRock = typeOfRocks[0];
                     break;
             }
-            Instantiate(clonedRock, new Vector2(currentIndex + 0.5f, currentRow + 0), Quaternion.identity, blocks);
+            instance = Instantiate(clonedRock, new Vector2(currentIndex + 0.5f, currentRow + 0.5f), Quaternion.identity, blocks);
+            
             currentIndex++;
             if (currentIndex > 15)
             {
@@ -54,13 +59,12 @@ public class ReadCSV : MonoBehaviour
             }
         }
 
-       
 
     }
 
     void ReadCSVFile()
     {
-        StreamReader strReader = new StreamReader("D:\\InternUnity\\brick-breaker\\Assets\\ContentFiles\\level1.csv");
+        StreamReader strReader = new StreamReader("D:\\InternUnity\\brick-breaker\\Assets\\ContentFiles\\" + fileName + ".csv");
         bool endOfFile = false;
 
         while (!endOfFile)

@@ -22,7 +22,7 @@ public class ClickImageHandler : MonoBehaviour, IPointerClickHandler
             Debug.Log("Can not Play, Please complete before stage");
             return;
         }
-        SceneManager.LoadScene(numberLevel - 1);
+        //SceneManager.LoadScene(numberLevel - 1);
     }
 
     // Start is called before the first frame update

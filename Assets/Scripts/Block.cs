@@ -46,7 +46,9 @@ public class Block : MonoBehaviour
         }
         else
         {
-            DestroyItself();
+            //DestroyItself();
+            ObjectPool.Instace.AddObjectToPool(gameObject);
+            _levelController.DecrementBlocksCounter();
         }
     }
     
@@ -100,6 +102,7 @@ public class Block : MonoBehaviour
         // increments destroyed blocks of the level
         _levelController.DecrementBlocksCounter();
 
+        // caculate drop item's rate
         var rateAppearPotion = Random.Range(0, 10);
         if (rateAppearPotion == 4)
         {
