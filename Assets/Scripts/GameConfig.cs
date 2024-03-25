@@ -79,12 +79,13 @@ public class GameConfig
             
         }*/
 
-        gameModeConfig.Add("playerLives", 3);
+        Debug.Log("dodai " + ReadCSV.Instance);
+        gameModeConfig.Add("playerLives", ReadCSV.Instance.list[0]);
         gameModeConfig.Add("gameSpeed", 0.8f);
         gameModeConfig.Add("pointsPerBlock", 100);
 
         // regardless of the game play mode 
-        gameModeConfig.Add("playerScore", 0);
+        gameModeConfig.Add("playerScore", 9);
         
         // initial level
         gameModeConfig.Add("gameLevel", SceneManager.GetActiveScene().buildIndex + 1);//setup gameLevel Text
