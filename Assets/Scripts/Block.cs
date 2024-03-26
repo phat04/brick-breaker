@@ -137,7 +137,7 @@ public class Block : MonoBehaviour
         GameObject destroyedBlockParticles = Instantiate(destroyedBlockParticlesVFX, blockPosition, blockRotation);
     }
 
-    public void ResetSate()
+    public void ResetState()
     {
         _currentHits = 0;
         UpdateSpriteIfTooDamaged();

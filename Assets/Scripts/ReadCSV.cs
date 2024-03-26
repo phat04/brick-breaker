@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 
 public class ReadCSV : MonoBehaviour
@@ -14,6 +15,8 @@ public class ReadCSV : MonoBehaviour
 
     int currentIndex = 0, currentRow = 0;
     GameObject clonedRock;
+    private float maxXAxis = 15.5f, minYAxis = 0.5f;
+    private int maxIndexInRow = 15;
 
     void Awake()
     {
@@ -34,16 +37,62 @@ public class ReadCSV : MonoBehaviour
     void Start()
     {
         UseBlock();
-        Debug.Log("Element Qauntity: " + list.Count);
+        /*Debug.Log("Element Qauntity: " + list.Count);
         for (int i = 0; i < list.Count; i++)
         {
             Debug.Log("element " + i + ": " + list[i]);
-        }
+        }*/
     }
 
     void ReadCSVFile(string index)
     {
-        StreamReader strReader = new StreamReader("D:\\InternUnity\\brick-breaker\\Assets\\ContentFiles\\" + "level" + index + ".csv");
+        string needFileName = "";
+        var curentFolder = Directory.GetCurrentDirectory();
+        //Debug.LogError("curentFolder: " + curentFolder);
+        var childFolder = Directory.GetDirectories(curentFolder);
+        List<string> childFile = new List<string>();
+        for (int i = 0; i < childFolder.Length; i++)
+        {
+            //Debug.LogError(childFolder[i]);
+            if (childFolder[i].Contains("Assets"))
+            {
+                childFolder = Directory.GetDirectories(childFolder[i]);
+                break;
+            }
+        }
+
+        for (int i = 0; i < childFolder.Length; i++)
+        {
+            if (childFolder[i].Contains("ContentFiles"))
+            {
+                childFile = Directory.GetFiles(childFolder[i]).ToList();
+                break;
+            }
+        }
+
+        foreach (var file in childFile)
+        {
+            //Debug.LogError(Path.GetFileNameWithoutExtension(file));
+            if (Path.GetFileNameWithoutExtension(file) == "level" + index)
+            {
+                needFileName = file;
+                //Debug.LogError("file: " + needFileName);
+                break;
+            }
+        }
+
+        /*if (File.Exists(childFolder[i]))
+        {
+
+        }*/
+
+        if (string.IsNullOrEmpty(needFileName))
+        {
+            Debug.LogError($"Can not find file with level{index}");
+            return;
+        }
+
+        StreamReader strReader = new StreamReader(needFileName);
         bool endOfFile = false;
 
         while (!endOfFile)
@@ -100,17 +149,17 @@ public class ReadCSV : MonoBehaviour
             instance = ObjectPool.Instace ? ObjectPool.Instace.GetObjectFromPool(clonedRock) : null;
             if (instance != null && instance.GetComponent<Block>() != null)
             {
-                instance.GetComponent<Block>().ResetSate();
-                instance.GetComponent<Block>().SetPositionItself(new Vector2(15.5f - currentIndex, currentRow + 0.5f));
+                instance.GetComponent<Block>().ResetState();
+                instance.GetComponent<Block>().SetPositionItself(new Vector2(maxXAxis - currentIndex, currentRow + minYAxis));
                 instance.transform.SetParent(blocks);
             } 
             else
             {
-                Instantiate(clonedRock, new Vector2(15.5f - currentIndex, currentRow + 0.5f), Quaternion.identity, blocks);
+                Instantiate(clonedRock, new Vector2(maxXAxis - currentIndex, currentRow + minYAxis), Quaternion.identity, blocks);
             }
 
             currentIndex++;
-            if (currentIndex > 15)
+            if (currentIndex > maxIndexInRow)
             {
                 currentIndex = 0;
                 currentRow++;
