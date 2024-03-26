@@ -46,9 +46,7 @@ public class Block : MonoBehaviour
         }
         else
         {
-            //DestroyItself();
-            ObjectPool.Instace.AddObjectToPool(gameObject);
-            _levelController.DecrementBlocksCounter();
+            DestroyItself();
         }
     }
     
@@ -121,7 +119,10 @@ public class Block : MonoBehaviour
 
         // plays destroyed block sound SFX
         AudioSource.PlayClipAtPoint(destroyedBlockSound, _soundPosition, soundVolume);
-        Destroy(this.gameObject);
+
+        // use setActive istead of Destroy
+        //Destroy(this.gameObject);
+        ObjectPool.Instace.AddObjectToPool(gameObject);
     }
 
     /**
@@ -134,5 +135,16 @@ public class Block : MonoBehaviour
         Quaternion blockRotation = this.transform.rotation;
         
         GameObject destroyedBlockParticles = Instantiate(destroyedBlockParticlesVFX, blockPosition, blockRotation);
+    }
+
+    public void ResetSate()
+    {
+        _currentHits = 0;
+        UpdateSpriteIfTooDamaged();
+    }
+
+    public void SetPositionItself(Vector2 customPosition)
+    {
+        transform.position = customPosition;
     }
 }

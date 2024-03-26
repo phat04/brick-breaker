@@ -55,7 +55,8 @@ public class GameSession : MonoBehaviour
         
         // UI updates
         playerScoreText.text = this.PlayerScore.ToString();
-        gameLevelText.text = this.GameLevel.ToString();
+        //gameLevelText.text = this.GameLevel.ToString();
+        gameLevelText.text = ObjectPool.Instace.currentlevel.ToString();
         playerLivesText.text = this.PlayerLives.ToString();
     }
 

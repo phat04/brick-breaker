@@ -5,9 +5,8 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    public List<GameObject> objectsPool;
-
     public static ObjectPool Instace;
+    public int currentlevel = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -32,11 +31,19 @@ public class ObjectPool : MonoBehaviour
     public void AddObjectToPool(GameObject obj)
     {
         obj.SetActive(false);
-        objectsPool.Add(obj);
+        obj.transform.SetParent(transform);
     }
 
-    public void GetObjectFromPool(GameObject obj)
+    public GameObject GetObjectFromPool(GameObject obj)
     {
-        objectsPool.FirstOrDefault(o => o == obj).SetActive(true);
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            if (transform.GetChild(i).gameObject.name.Contains(obj.name))
+            {
+                transform.GetChild(i).gameObject.SetActive(true);
+                return transform.GetChild(i).gameObject;
+            }
+        }
+        return null;
     }
 }
