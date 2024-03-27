@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,11 +16,14 @@ public class LevelSpawnController : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {    
+        //Debug.Log(Application.dataPath);
+        
         Cursor.visible = true;
         starNumbetTxt.text = (PlayerPrefs.GetInt("CurrentCompleteStage") * 3).ToString();// Caculate the total number of stars
 
         Image intance;
+        // Spawn stages
         for (int i = 0; i < maxNumberSpawn; i++)
         {
             intance = Instantiate(stageImg, transform);
@@ -34,22 +38,23 @@ public class LevelSpawnController : MonoBehaviour
         var currentStageInRown = 1;
         var currentRown = 0;
         stages[0].transform.GetChild(0 + 3).GetComponent<Text>().text = "Tutorial";
+        // Pass level number for Stage Number Txt
         for (int i = 1;i < stages.Count; i++)
         {
             if (currentRown % 2 == 0)
             {
                 stages[i].transform.GetChild(0 + 3).GetComponent<Text>().text =
-                    (i + 1).ToString();// Pass level number for Stage Number Txt
+                    (i + 1).ToString();
             }
             else
             {
                 stages[i].transform.GetChild(0 + 3).GetComponent<Text>().text =
-                    (i + 4 - currentStageInRown * 2).ToString();// Pass level number for Stage Number Txt
+                    (i + 4 - currentStageInRown * 2).ToString();
             }
 
             currentStageInRown++;
 
-            // Add line fore stage
+            // Add line for stage
             if (int.Parse(stages[i].transform.GetChild(0 + 3).GetComponent<Text>().text) % 4 == 0)
             {
                 stages[i].transform.GetChild(1).gameObject.SetActive(true);
@@ -77,6 +82,7 @@ public class LevelSpawnController : MonoBehaviour
             }
         }
 
+        // Show star of Stage and Unlock Stage
         if (PlayerPrefs.HasKey("CurrentCompleteStage"))
         {
             for (int i = 1; i < stages.Count; i++)
@@ -84,11 +90,13 @@ public class LevelSpawnController : MonoBehaviour
                 if (int.Parse(stages[i].transform.GetChild(0 + 3).GetComponent<Text>().text) 
                     <= PlayerPrefs.GetInt("CurrentCompleteStage"))
                 {
+                    // Show star of Stage
                     WinStateStage(stages[i]);
                 }
                 else if (int.Parse(stages[i].transform.GetChild(0 + 3).GetComponent<Text>().text) 
                     == PlayerPrefs.GetInt("CurrentCompleteStage") + 1)
                 {
+                    // Unlock Stage
                     UnLocksStateStage(stages[i]);
                 }
             }
@@ -100,7 +108,9 @@ public class LevelSpawnController : MonoBehaviour
 
         // Scroll to latest completed stage
         levelPanel.GetComponent<ScrollRect>().verticalNormalizedPosition =
-            1f / (maxNumberSpawn / 4) * Mathf.Ceil(PlayerPrefs.GetInt("CurrentCompleteStage"));
+            1f / (maxNumberSpawn / 4) * Mathf.Ceil((float)PlayerPrefs.GetInt("CurrentCompleteStage") / 4);
+
+        //Debug.Log(1f / (maxNumberSpawn / 4) * Mathf.Ceil((float)PlayerPrefs.GetInt("CurrentCompleteStage") / 4));
     }
 
     // Update is called once per frame

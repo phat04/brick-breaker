@@ -8,28 +8,45 @@ public class LevelController : MonoBehaviour
 {
     private readonly string GAME_OVER_SCENE_NAME = "Scenes/GameOver";
     private readonly int NUMBER_OF_GAME_LEVELS = 3;
-    
-    // UI elements
-    [SerializeField] int blocksCounter;
 
+    public static LevelController Instance;
+
+    // UI elements
+    /*[SerializeField] *///int blocksCounter = 0;
+
+    public int BlocksCounter;
     // state
     private SceneLoader _sceneLoader;
-    
+
+    [SerializeField] private ReadCSV readCSV;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+
+        BlocksCounter = 0;
+}
+
     private void Start()
     {
         _sceneLoader = FindObjectOfType<SceneLoader>();
+        readCSV.UseBlock();
+        Debug.Log("block quantity: " + BlocksCounter);
     }
 
-    public void IncrementBlocksCounter()
+    /*public void IncrementBlocksCounter()
     {
-        blocksCounter++;
-    }
+        BlocksCounter++;
+    }*/
     
     public void DecrementBlocksCounter()
     {
-        blocksCounter--;
+        BlocksCounter--;
+        Debug.LogError("Colider");
 
-        if (blocksCounter <= 0)
+        if (BlocksCounter <= 0)
         {
             var gameSession = GameSession.Instance;
             
@@ -42,11 +59,11 @@ public class LevelController : MonoBehaviour
             // increases game level
             gameSession.GameLevel++;
 
-            if (gameSession.GameLevel++ > PlayerPrefs.GetInt("CurrentCompleteStage"))
+            if (gameSession.GameLevel > PlayerPrefs.GetInt("CurrentCompleteStage") || !PlayerPrefs.HasKey("CurrentCompleteStage"))
             {
-                PlayerPrefs.SetInt("CurrentCompleteStage", gameSession.GameLevel++);// save current stage is completed
+                PlayerPrefs.SetInt("CurrentCompleteStage", gameSession.GameLevel);// save current stage is completed
             }
-
+            Debug.LogError("complee" + $" blockcounter: {BlocksCounter}");
             _sceneLoader.LoadLevelMapScene();
         }
     }

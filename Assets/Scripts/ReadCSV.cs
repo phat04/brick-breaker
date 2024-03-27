@@ -23,20 +23,22 @@ public class ReadCSV : MonoBehaviour
         Instance = this;
         if (ObjectPool.Instace != null)
         {
-            ReadCSVFile(ObjectPool.Instace.currentlevel.ToString());
-            Debug.Log("current Stage " + ObjectPool.Instace.currentlevel.ToString());
+            //ReadCSVFile(ObjectPool.Instace.currentlevel.ToString());
+            ReadCSVFileWithResource(ObjectPool.Instace.currentlevel.ToString());
+            //Debug.Log("current Stage " + ObjectPool.Instace.currentlevel.ToString());
         }
         else
         {
-            ReadCSVFile("1");
+            //ReadCSVFile("1");
+            ReadCSVFileWithResource("1");
         }
-
+        
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        UseBlock();
+        //UseBlock();
         /*Debug.Log("Element Qauntity: " + list.Count);
         for (int i = 0; i < list.Count; i++)
         {
@@ -47,6 +49,8 @@ public class ReadCSV : MonoBehaviour
     void ReadCSVFile(string index)
     {
         string needFileName = "";
+
+        // ---- READ CSV FILE WITHOUT RESOURCE------------
         var curentFolder = Directory.GetCurrentDirectory();
         //Debug.LogError("curentFolder: " + curentFolder);
         var childFolder = Directory.GetDirectories(curentFolder);
@@ -121,7 +125,36 @@ public class ReadCSV : MonoBehaviour
         }
     }
 
-    void UseBlock()
+    void ReadCSVFileWithResource(string index)
+    {
+        TextAsset csvTxt = (TextAsset)Resources.Load($"level{index}", typeof(TextAsset));
+
+        var needFileName = csvTxt.text;
+        var data_values = needFileName.Split(new[] { "\n"}, System.StringSplitOptions.None);
+        //Debug.Log(data_values);
+        int result;
+
+
+        for (int i = 0; i < data_values.Length; i++)
+        {
+            //Debug.LogError(data_values[i]);
+        }
+
+        needFileName = string.Join(",", data_values);
+        //Debug.LogError(needFileName);
+        var data_values1 = needFileName.Split(',');
+        for (int i = 0; i < data_values1.Length; i++)
+        {
+            if (int.TryParse(data_values1[i], out result))
+            {
+                list.Add(result);
+            }
+        }
+
+        //Debug.LogError(data_values.Length + " --- " + list.Count);
+    }
+
+   public  void UseBlock()
     {
         var instance = new GameObject();
         for (int i = list.Count - 1; i >= 2; i--)
@@ -133,9 +166,11 @@ public class ReadCSV : MonoBehaviour
                     break;
                 case 1:
                     clonedRock = typeOfRocks[1];
+                    LevelController.Instance.BlocksCounter++;
                     break;
                 case 2:
                     clonedRock = typeOfRocks[2];
+                    LevelController.Instance.BlocksCounter++;
                     break;
                 case -1:
                     clonedRock = typeOfRocks[3];

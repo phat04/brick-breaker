@@ -13,7 +13,7 @@ public class Block : MonoBehaviour
     [SerializeField] List<GameObject> potions;
 
     // references to other objects
-    private LevelController _levelController;
+   // private LevelController _levelController;
     private Vector3 _soundPosition;
 
     // state
@@ -22,11 +22,11 @@ public class Block : MonoBehaviour
     void Start()
     {
         // selects other game object without SCENE binding: programatically via API
-        _levelController = FindObjectOfType<LevelController>();
+        //_levelController = FindObjectOfType<LevelController>();
         _soundPosition = FindObjectOfType<Camera>().transform.position;
 
         // increment the block counter if the block's breakable
-        if (CompareTag("Breakable")) _levelController.IncrementBlocksCounter();
+        //if (CompareTag("Breakable")) _levelController.IncrementBlocksCounter();
     }
     
     /**
@@ -98,7 +98,7 @@ public class Block : MonoBehaviour
         PlayDestructionEffects();
 
         // increments destroyed blocks of the level
-        _levelController.DecrementBlocksCounter();
+        LevelController.Instance.DecrementBlocksCounter();
 
         // caculate drop item's rate
         var rateAppearPotion = Random.Range(0, 10);
@@ -141,6 +141,7 @@ public class Block : MonoBehaviour
     {
         _currentHits = 0;
         UpdateSpriteIfTooDamaged();
+        //_levelController.IncrementBlocksCounter();
     }
 
     public void SetPositionItself(Vector2 customPosition)

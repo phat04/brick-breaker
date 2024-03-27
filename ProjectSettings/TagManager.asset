@@ -10,6 +10,7 @@ TagManager:
   - MenuOptionWithChild
   - Paddle
   - Gear
+  - Ball
   layers:
   - Default
   - TransparentFX

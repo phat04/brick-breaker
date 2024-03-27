@@ -13,9 +13,11 @@ public class ClickImageHandler : MonoBehaviour, IPointerClickHandler
         //Load Leve1
         if (transform.GetChild(0 + 3).GetComponent<Text>().text == "Tutorial")
         {
+            ObjectPool.Instace.currentlevel = 1;
             SceneManager.LoadScene(0);
             return;
         }
+
         int choseLevelNumber = int.Parse(transform.GetChild(0 + 3).GetComponent<Text>().text);
         Debug.Log(PlayerPrefs.GetInt("CurrentCompleteStage") + 1);
 
