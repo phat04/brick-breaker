@@ -15,17 +15,16 @@ public class LoseCollider : MonoBehaviour
         {
             var gameSession = GameSession.Instance;
             
+            // deduces a game life from the player
+            gameSession.PlayerLives--;
+            FixBallOnPaddleAfterLoss();
+
             // checks for game over
             if (gameSession.PlayerLives <= 0)
             {
                 SceneManager.LoadScene(GAME_OVER_SCENE_NAME);
                 return;
             }
-
-            // deduces a game life from the player
-            gameSession.PlayerLives--;
-            FixBallOnPaddleAfterLoss();
-            
         }
     }
 
