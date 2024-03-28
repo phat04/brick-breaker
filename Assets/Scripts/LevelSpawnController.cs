@@ -98,8 +98,9 @@ public class LevelSpawnController : MonoBehaviour
             UnLocksStateStage(stages[1]);
         }
 
-        levelPanel.GetComponent<ScrollRect>().verticalNormalizedPosition =
-            1f / (maxNumberSpawn / 4) * Mathf.Ceil(PlayerPrefs.GetInt("CurrentCompleteStage"));
+        Debug.LogError((float)(PlayerPrefs.GetInt("CurrentCompleteStage") + 1f) + "  " + 1f / (maxNumberSpawn / 4) * ((PlayerPrefs.GetInt("CurrentCompleteStage") + 1f) / 4));
+        levelPanel.GetComponent<ScrollRect>().verticalNormalizedPosition = 
+            1f / (maxNumberSpawn / 4) * (Mathf.Ceil(((float)PlayerPrefs.GetInt("CurrentCompleteStage") + 1f) / 4)) - 0.1f;
     }
 
     // Update is called once per frame
