@@ -107,8 +107,8 @@ public class LevelSpawnController : MonoBehaviour
         }
 
         // Scroll to latest completed stage
-        levelPanel.GetComponent<ScrollRect>().verticalNormalizedPosition = 0.9f;
-            //1f / (maxNumberSpawn / 4) * (Mathf.Ceil(((float)PlayerPrefs.GetInt("CurrentCompleteStage") + 1f) / 4)) - 0.1f;
+        levelPanel.GetComponent<ScrollRect>().verticalNormalizedPosition = 
+            1f / (maxNumberSpawn / 4) * (Mathf.Ceil(((float)PlayerPrefs.GetInt("CurrentCompleteStage") + 1f) / 4)) - 0.1f;
 
         //Debug.Log(1f / (maxNumberSpawn / 4) * Mathf.Ceil((float)PlayerPrefs.GetInt("CurrentCompleteStage") / 4));
     }
